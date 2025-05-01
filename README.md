@@ -1,2 +1,0 @@
-# BoilerPlate
-Web BoilerPlate

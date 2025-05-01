@@ -1,0 +1,26 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.globalNav{
+    
+    ul{
+        list-style: none;
+        padding: 0;
+        display: flex;
+        li{
+            margin: .5rem 1rem;
+            a{
+                color: #000000;
+                font-size: 1.7rem;
+                font-weight: 500;
+                text-decoration: none;
+                .active-link {
+                    font-weight: bold;
+                    color: #007bff;
+                    text-decoration: underline;
+                }
+            }
+            
+        }
+    }
+}
