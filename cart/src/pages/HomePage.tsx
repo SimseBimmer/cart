@@ -28,7 +28,7 @@ export const HomePage = () => {
                                 <h5 id="productTitle">{product.title}</h5>
                                 {/* <p>{product.description}</p> */}
                                 <p id="productPrice">{product.price} Dkk</p>
-                                <button onClick={() => addToCart(product)}>Add to Cart</button>
+                                <button id="addToCart1" onClick={() => addToCart(product)}>Add to Cart</button>
                             </div>
                         </div>
                     );
